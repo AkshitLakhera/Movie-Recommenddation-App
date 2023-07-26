@@ -15,3 +15,23 @@
 form .flex {
   justify-content:center;
 }
+.nav-link{
+  margin-left: 4rem;
+}
+.navbar-nav .nav-link:hover {
+  color: #edba16;; /* Change the text color to yellow on hover */
+  text-decoration: underline; /* Add a yellow underline on hover */
+}
+.sign_in {
+  background-color:#edba16;
+  color: white;
+  border-radius: 1rem;
+  padding:0.5rem;
+  width: 120px;
+  display: flex; /* Use Flexbox to control the button's layout */
+  justify-content: center; /* Center the content (text) horizontally */
+  align-items: center;
+}
+ .navbar-nav .sign_in:hover{
+  color: black;
+}
